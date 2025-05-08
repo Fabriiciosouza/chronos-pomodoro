@@ -1,3 +1,4 @@
+import { Heading } from './components/Heading'
 import './styles/theme.css'
 import './styles/global.css'
 
@@ -7,7 +8,7 @@ export function App() {
   return (
     //<div> esse <> </> é um fragmento, ou seja, não renderiza nada no DOM só serve para agrupar elementos como div
     <>
-      <h1>Hello World</h1>
+      <Heading />
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus
         voluptates impedit ad iure consectetur unde ea veritatis quos.
